@@ -24,9 +24,9 @@ public class Stack<T> {
     }
 
     public void push(T data){
-        Node<T> node = new Node<>(data);
-        node.next = top;
-        top = node;
+        Node<T> node = new Node<>(data); // ---> fresh reference
+        node.next = top; // ---> outdated reference
+        top = node; // ---> fresh reference
         count++;
     }
 
