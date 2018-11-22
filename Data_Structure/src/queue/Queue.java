@@ -18,30 +18,30 @@ public class Queue<T> {
 
     public void add(T data) {
         Node<T> node = new Node<>(data);
-        if (tail != null) {
+        if (tail != null)
             tail.next = node;
-        }
 
         tail = node;
 
-        if (head == null) {
+        if (head == null)
             head = tail;
-        }
     }
 
     public T remove() {
         if (head == null)
             throw new NoSuchElementException();
+
         T data = head.data;
         head = head.next;
-        if (head == null) {
+
+        if (head == null)
             tail = null;
-        }
+
         return data;
     }
 
     public T peek() {
-        if(head == null) throw new NoSuchElementException();
+        if (head == null) throw new NoSuchElementException();
         return head.data;
     }
 
@@ -53,7 +53,7 @@ public class Queue<T> {
 
         Queue<Integer> queue = new Queue<>();
         System.out.println(queue.isEmpty());
-        queue.add(123);
+        queue.add(3);
         System.out.println(queue.isEmpty());
         System.out.println(queue.peek());
         System.out.println(queue.remove());
