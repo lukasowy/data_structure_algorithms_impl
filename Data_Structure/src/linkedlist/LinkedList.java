@@ -2,17 +2,19 @@ package linkedlist;
 
 import java.util.Stack;
 
-class Node {
-    int data;
-    Node next = null;
-
-    public Node(int data) {
-        super();
-        this.data = data;
-    }
-}
 
 public class LinkedList {
+
+    private static class Node {
+        int data;
+        Node next = null;
+
+        public Node(int data) {
+            super();
+            this.data = data;
+        }
+    }
+
     private Node head;
 
     public void append(int data) {
