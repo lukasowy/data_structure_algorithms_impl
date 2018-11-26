@@ -31,20 +31,20 @@ public class BinaryTree {
         if (root == null) {
             root = newNode;
         } else {
-            Node focusNode = root;
+            Node current = root;
             Node parent;
 
             while (true) {
-                parent = focusNode;
-                if (key < focusNode.key) {
-                    focusNode = focusNode.left;
-                    if (focusNode == null) {
+                parent = current;
+                if (key < current.key) {
+                    current = current.left;
+                    if (current == null) {
                         parent.left = newNode;
                         return;
                     }
                 } else {
-                    focusNode = focusNode.right;
-                    if (focusNode == null) {
+                    current = current.right;
+                    if (current == null) {
                         parent.right = newNode;
                         return;
                     }
@@ -82,19 +82,19 @@ public class BinaryTree {
     }
 
     public Node findNode(int key) {
-        Node focusNode = root;
-        while (focusNode.key != key) {
-            if (key < focusNode.key) {
-                focusNode = focusNode.left;
+        Node current = root;
+        while (current.key != key) {
+            if (key < current.key) {
+                current = current.left;
             } else {
-                focusNode = focusNode.right;
+                current = current.right;
             }
 
-            if (focusNode == null) {
+            if (current == null) {
                 return null;
             }
         }
-        return focusNode;
+        return current;
     }
 
     public Node findMin() {
@@ -102,11 +102,11 @@ public class BinaryTree {
             System.out.println("Tree is empty!!");
             return null;
         }
-        Node focusNode = root;
-        while (focusNode.left != null) {
-            focusNode = focusNode.left;
+        Node current = root;
+        while (current.left != null) {
+            current = current.left;
         }
-        return focusNode;
+        return current;
     }
 
     public Node findMax() {
@@ -114,11 +114,11 @@ public class BinaryTree {
             System.out.println("Tree is empty!!");
             return null;
         }
-        Node focusNode = root;
-        while (focusNode.right != null) {
-            focusNode = focusNode.right;
+        Node current = root;
+        while (current.right != null) {
+            current = current.right;
         }
-        return focusNode;
+        return current;
     }
 
     public static void main(String[] args) {
@@ -131,12 +131,14 @@ public class BinaryTree {
         tree.addNode(75, "Stefek");
         tree.addNode(85, "Kazik");
 
-        tree.inOrderTraverseTree(tree.root);
-        tree.preorderTraverseTree(tree.root);
-        tree.postorderTraverseTree(tree.root);
+//        tree.inOrderTraverseTree(tree.root);
+//        System.out.println();
+//        tree.preorderTraverseTree(tree.root);
+//        System.out.println();
+//        tree.postorderTraverseTree(tree.root);
 
-        System.out.println(tree.findNode(13));
-
+        System.out.println(tree.findNode(85));
+        System.out.println(tree.findMax());
         System.out.println(tree.root.key);
     }
 }
