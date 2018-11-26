@@ -131,11 +131,11 @@ public class BinaryTree {
         tree.addNode(75, "Stefek");
         tree.addNode(85, "Kazik");
 
-//        tree.inOrderTraverseTree(tree.root);
-//        System.out.println();
-//        tree.preorderTraverseTree(tree.root);
-//        System.out.println();
-//        tree.postorderTraverseTree(tree.root);
+        tree.inOrderTraverseTree(tree.root);
+        System.out.println();
+        tree.preorderTraverseTree(tree.root);
+        System.out.println();
+        tree.postorderTraverseTree(tree.root);
 
         System.out.println(tree.findNode(85));
         System.out.println(tree.findMax());
