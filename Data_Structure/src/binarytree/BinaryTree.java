@@ -139,6 +139,7 @@ public class BinaryTree {
 
         System.out.println(tree.findNode(85));
         System.out.println(tree.findMax());
+        System.out.println(tree.findMin());
         System.out.println(tree.root.key);
     }
 }
