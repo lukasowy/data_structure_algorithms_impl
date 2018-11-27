@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866ef9eb-f3cd-4131-9917-056771d1c432" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structure.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure_algorithms_impl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure_algorithms_impl/binarytree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure_algorithms_impl/binarytree/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure_algorithms_impl/linkedlist/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure_algorithms_impl/queue/Queue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure_algorithms_impl/queue/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure_algorithms_impl/stack/Stack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure_algorithms_impl/stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datya_structure/binarytree/BinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datya_structure/linkedlist/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datya_structure/queue/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datya_structure/stack/Stack.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/binary_search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Structure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/Data_Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/data_structure_algorithms_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_algorithms_impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/out/production/data_structure_algorithms_impl/binarytree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/out/production/data_structure_algorithms_impl/binarytree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/out/production/data_structure_algorithms_impl/linkedlist/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/out/production/data_structure_algorithms_impl/queue/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/out/production/data_structure_algorithms_impl/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/out/production/data_structure_algorithms_impl/stack/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/out/production/data_structure_algorithms_impl/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/src/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datya_structure/binarytree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/src/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datya_structure/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/src/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datya_structure/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Structure/src/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datya_structure/stack/Stack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +69,80 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datya_structure/linkedlist/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datya_structure/binarytree/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datya_structure/queue/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datya_structure/stack/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/binary_search/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/SelectSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,10 +174,12 @@
         <option value="$PROJECT_DIR$/src/algorithms/sorting/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/algorithms/binary_search/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/algorithms/binary_search/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -114,49 +194,83 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="binary_search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datya_structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datya_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datya_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datya_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Structure_Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datya_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543270386410" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Data_Structure_Algorithms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -178,7 +292,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.binary_search.*" />
+          <option name="PATTERN" value="algorithms.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,23 +309,23 @@
       </extension>
     </configuration>
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.binary_search.BubbleSort" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSort" />
       <module name="data_structure_algorithms_impl" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.binary_search.*" />
+          <option name="PATTERN" value="algorithms.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.binary_search.InsertionSort" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.InsertionSort" />
       <module name="data_structure_algorithms_impl" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.binary_search.*" />
+          <option name="PATTERN" value="algorithms.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,58 +423,96 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32884097" />
-      <window_info anchor="right" id="Palette&#9;" order="11" />
-      <window_info id="Image Layers" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="11" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" id="Palette" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26606685" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.2857143" />
-      <window_info id="Image Layers" order="8" />
-      <window_info id="Designer" order="9" />
-      <window_info id="UI Designer" order="10" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.39892185" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32884097" />
       <window_info anchor="right" id="Palette&#9;" order="12" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info id="Capture Tool" order="12" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Maven Projects" order="13" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.28540304" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info id="Capture Tool" order="12" />
+      <window_info id="Designer" order="9" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26865673" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39892185" />
       <window_info id="Favorites" order="13" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/datya_structure/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datya_structure/binarytree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datya_structure/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datya_structure/stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/binary_search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datya_structure/linkedlist/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
@@ -449,7 +601,7 @@
     <entry file="file://$PROJECT_DIR$/src/datya_structure/linkedlist/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -463,42 +615,42 @@
     <entry file="file://$PROJECT_DIR$/src/datya_structure/queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datya_structure/stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/binary_search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="17">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/binary_search/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/binary_search/InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
         </state>
       </provider>
     </entry>

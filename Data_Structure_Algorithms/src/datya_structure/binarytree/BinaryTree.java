@@ -1,4 +1,4 @@
-package binarytree;
+package datya_structure.binarytree;
 
 class Node {
     int key;

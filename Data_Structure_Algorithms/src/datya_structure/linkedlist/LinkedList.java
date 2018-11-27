@@ -1,4 +1,4 @@
-package linkedlist;
+package datya_structure.linkedlist;
 
 import java.util.Stack;
 
