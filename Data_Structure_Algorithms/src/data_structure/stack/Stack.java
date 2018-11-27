@@ -1,4 +1,4 @@
-package datya_structure.stack;
+package data_structure.stack;
 
 import java.util.EmptyStackException;
 

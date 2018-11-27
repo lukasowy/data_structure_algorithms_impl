@@ -6,7 +6,7 @@ public class BubbleSort {
         int len = arr.length;
 
         for (int i = 0; i < len; i++) { // as many times as long is array
-            for (int j = 0; j < len - i; j++) {
+            for (int j = 0; j < len - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int tem = arr[j];
                     arr[j] = arr[j + 1];

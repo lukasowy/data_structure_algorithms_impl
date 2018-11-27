@@ -4,11 +4,11 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
-Data_Structure/.idea/**/workspace.xml
-Data_Structure/.idea/**/tasks.xml
-Data_Structure/.idea/**/usage.statistics.xml
-Data_Structure/.idea/**/dictionaries
-Data_Structure/.idea/**/shelf
+Data_Structure_Algorithms/.idea/**/workspace.xml
+Data_Structure_Algorithms/.idea/**/tasks.xml
+Data_Structure_Algorithms/.idea/**/usage.statistics.xml
+Data_Structure_Algorithms/.idea/**/dictionaries
+Data_Structure_Algorithms/.idea/**/shelf
 
 # Sensitive or high-churn files
 .idea/**/dataSources/

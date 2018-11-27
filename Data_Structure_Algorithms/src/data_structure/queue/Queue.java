@@ -1,4 +1,4 @@
-package datya_structure.queue;
+package data_structure.queue;
 
 import java.util.NoSuchElementException;
 
