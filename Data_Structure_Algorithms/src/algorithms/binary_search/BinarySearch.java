@@ -1,5 +1,7 @@
 package algorithms.binary_search;
 
+import java.util.Arrays;
+
 public class BinarySearch {
 
     public static boolean binarySearchRecursive(int[] array, int x, int left, int right) {
@@ -23,8 +25,8 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int[] array = {2, 3, 4, 6, 21, 43};
-
-        System.out.println(binarySearchRecursive(array, 21));
+        int[] array = {122, 3, 11, 6, 21, 43};
+        Arrays.sort(array);
+        System.out.println(binarySearchRecursive(array, 122));
     }
 }
